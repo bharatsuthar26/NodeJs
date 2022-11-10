@@ -1,0 +1,41 @@
+-> What Is Error Handling in Node.js?
+    -->I’ve heard a ton of my fellow developers say error handling in Node.js is way too hard. Well, I can’t
+       lie. It’s not easy. But, I have to be fair and say it’s not that hard either once you set up centralized 
+       error handling.
+    -->What is an error anyhow? It’s a way to see bugs in your code. Following this logic, error handling is a
+       way to find these bugs and solve them as quickly as humanly possible.
+    -->From this explanation, it’s obvious the hard part is setting up a good base for your error handling. It’s 
+       all about keeping you sane at the end of the day. Handling errors properly means developing a robust 
+       codebase and reducing development time by finding bugs and errors easily.
+
+
+
+
+->Why Do You Need Error Handling?
+    -->Why? For your own sanity. You want to make bug fixing less painful. It helps you write cleaner code. It
+      centralizes all errors and lets you enable alerting and notifications so you know when and how your code
+      breaks.
+
+
+-> Types Of errors
+    --> Operational Errors
+    --> Programmer Errors
+
+    Operational Errors:
+       represent runtime problems. These errors are expected in the Node.js runtime and should be dealt with in
+       a proper way. This does not mean the application itself has bugs. It means they need to be handled properly.
+       Here’s a list of common operational errors:
+
+       -failed to connect to server
+       -failed to resolve hostname
+       -invalid user input
+       -request timeout
+       -server returned a 500 response
+       -socket hang-up
+       -system is out of memory
+
+
+
+
+
+
