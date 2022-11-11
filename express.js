@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 PORT= 4333;
 app.use(express.json());
- app.use(express.urlencoded({extended:false}));
+app.use(express.urlencoded({extended:false}));
 app.get('/',(req,res)=>{
   // res.send('<html><body><h2>Hi Express</h2></body></html>');
   res.sendFile(__dirname+'/index.html');
